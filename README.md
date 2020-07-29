@@ -8,7 +8,7 @@ In case you need a local cluster providing Kafka, Cassandra and Spark you're at 
 * [Apache Spark 2.4.5](http://spark.apache.org/releases/spark-release-2-4-5.html)
 * [Apache Cassandra 3.11.6](http://cassandra.apache.org)
 * [Apache Hadoop 3.2.1](https://hadoop.apache.org/docs/r3.2.1/)
-* [Apache Flink 1.10.0](https://ci.apache.org/projects/flink/flink-docs-release-1.10)
+* [Apache Flink 1.11.0](https://ci.apache.org/projects/flink/flink-docs-release-1.11)
 
 ## Prerequisites
 
@@ -180,7 +180,7 @@ http://hadoop-1:38361 (depending in your output).
 #### Submit a job:
 
 ```bash
-[vagrant@hadoop-1 ~]$ flink run -m hadoop-1:38361 /usr/local/flink-1.10.0/examples/streaming/WordCount.jar
+[vagrant@hadoop-1 ~]$ flink run -m hadoop-1:38361 /usr/local/flink-1.11.0/examples/streaming/WordCount.jar
 ```
 
 
